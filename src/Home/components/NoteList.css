@@ -1,0 +1,29 @@
+.note_animation-enter-active {
+    animation: note-add 0.7s ease-out forwards;
+}
+
+.note_animation-exit-active {
+    animation: note-remove 0.3s ease-out forwards;
+}
+
+
+@keyframes note-add {
+
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes note-remove {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
