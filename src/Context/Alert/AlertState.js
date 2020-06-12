@@ -11,7 +11,7 @@ export default props => {
 
   const show = (text, type = 'close') => {
     dispatch({
-      type: SHOW_ALERT,
+      type: [SHOW_ALERT],
       payload: {
         text,
         type
@@ -22,6 +22,8 @@ export default props => {
   const hide = () => {
     dispatch({type: HIDE_ALERT})
   }
+
+  
 
   return (
     <AlertContext.Provider

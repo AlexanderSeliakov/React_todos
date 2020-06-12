@@ -1,0 +1,38 @@
+.alert{
+    margin: 1rem 0;
+    padding: 0.8rem;
+    border: solid 1px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.alert b{
+    text-transform: capitalize;
+}
+
+.alert-attention{
+    background-color: #f0a9a9;
+}
+
+.alert-success{
+    background-color: #b1f0a9;
+}
+
+.alert-warning{
+    background-color: #ebf0a9;
+}
+
+.alerts-enter{
+    opacity: 0;
+}
+.alerts-enter-active{
+    transition: opacity 300ms ease-out;
+    opacity: 1;
+}
+
+.alerts-exit-active{
+    transition: opacity 150ms linear;
+    opacity: 0;
+}

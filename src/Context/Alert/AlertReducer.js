@@ -4,7 +4,7 @@ import { SHOW_ALERT, HIDE_ALERT } from "../Types"
 const handlers = {
     [SHOW_ALERT] : (state, {payload}) => ({...payload, visible:true}),
     [HIDE_ALERT] : state => ({...state, visible: false}),
-    DEFAULT : state=>state
+    DEFAULT : state => state
 }
 
 export const AlertReducer = (state, action) =>{
