@@ -7,7 +7,7 @@ import Home from './Home/Home'
 import About from './About/About'
 import AlertState from './Context/Alert/AlertState';
 import FbState from './Context/FireBase/FbState';
-import './App.css';
+// import './App.css';
 
 function App() {
   return (
